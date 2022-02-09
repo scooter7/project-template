@@ -1,1 +1,1 @@
-web: python app/__main__.py
+web: python -u -m app
