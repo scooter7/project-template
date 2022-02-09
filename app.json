@@ -1,7 +1,7 @@
 {
   "name": "atoti template",
   "description": "A template for atoti projects",
-  "repository": "https://github.com/scooter7/project-template/tree/deploy-to-heroku",
+  "repository": "https://github.com/scooter7/project-template/",
   "keywords": ["atoti", "dataviz", "python", "visualization"],
   "addons": ["heroku-postgresql:hobby-dev"],
   "buildpacks": [
