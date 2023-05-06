@@ -80,8 +80,7 @@ def read_station_status(velib_data_base_path: Union[HttpUrl, Path], /) -> pd.Dat
                     StationStatusTableColumn.BIKES.value: bikes,
                 }
             )
-    station_statuses_df = pd.DataFrame(station_statuses)
-    return station_statuses_df
+    return pd.DataFrame(station_statuses)
 
 
 def load_tables(session: tt.Session, /, *, config: Config) -> None:
